@@ -23,6 +23,9 @@ class Palette {
   static const Color paleOrange = Color(0xffffe8c7);
   static const Color paleDarkOrange = Color(0xffa06b20);
 
+  static const Color lightPurple = Color(0xffa4aafe);
+  static const Color darkPurple = Color(0xff4a4bfe);
+
   //appbar background color
   static const Color background = Color(0xFFf9fafc);
 } // yo

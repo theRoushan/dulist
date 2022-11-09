@@ -1,4 +1,3 @@
-import 'package:dulist/theme/pallete.dart';
 import 'package:dulist/theme/typography.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
@@ -72,7 +71,7 @@ class ProgressTaskCard extends StatelessWidget {
                         ),
                         CircleAvatar(
                           radius: 22,
-                          backgroundColor: Palette.paleOrange,
+                          backgroundColor: iconBg,
                           child: Icon(
                             icon,
                             color: iconColor,
@@ -197,7 +196,7 @@ class ProgressTaskCard extends StatelessWidget {
             ),
           ),
           Container(
-            color: Palette.paleOrange,
+            color: iconBg,
             height: 10,
             width: 80.w,
           ),
